@@ -3,7 +3,7 @@
 
 <div align="center">
   
-  <h2><b> AwsmBook</b></h3>
+  <h2><b> Awesomebook</b></h3>
 
 </div>
 
@@ -29,9 +29,9 @@
 - [🙏 Acknowledgements](#acknowledgements)
 - [📝 License](#license)
 
-# 📖 AwsmBook <a name="about-project"></a>
+# 📖 Awesomebook <a name="about-project"></a>
 
-**AwsmBook** is a repository.The goal is to master all of the tools and best practices learned in previous steps.
+**Awesomebook** is a repository.The goal is to master all of the tools and best practices learned in previous steps.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -65,7 +65,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://kit0-0.github.io/AwsmBook/)
+- [Live Demo Link](https://kit0-0.github.io/awesomebook/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -85,7 +85,7 @@ In order to run this project you need:
 
 Clone this repository to your desired folder:
 
-git clone https://github.com/kit0-0/AwsmBook.git
+git clone https://github.com/kit0-0/awesomebook.git
 
 ### Install
 
@@ -152,7 +152,7 @@ npx eslint .
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/kit0-0/AwsmBook/issues).
+Feel free to check the [issues page](https://github.com/kit0-0/awesomebook/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

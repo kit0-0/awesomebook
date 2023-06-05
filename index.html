@@ -4,27 +4,33 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Awesomebooks</title>
 </head>
 <body>
-    <section id="add-book" class="content">
-        <h2>Add Book</h2>
-        <!-- Add book form content -->
-        <form id="addBookForm">
-          <div class="user-box">
-            <input type="text" id="titleInput" required>
-            <label>Title</label>
-          </div>
-          <div class="user-box">
-            <input type="text" id="authorInput" required>
-            <label>Author</label>
-          </div>
-          <div>
-            <button type="submit" class="add-button">
-              Add
-            </button>
-          </div>
-        </form>
-      </section>
+  <section id="books" class="content">
+    <div id="bookContainer" class="book-container"></div>
+  </section>
+
+  <section id="add-book" class="content">
+    <h2>Add Book</h2>
+    <!-- Add book form content -->
+    <form id="addBookForm">
+      <div class="user-box">
+        <input type="text" id="titleInput" required>
+        <label>Title</label>
+      </div>
+      <div class="user-box">
+        <input type="text" id="authorInput" required>
+        <label>Author</label>
+      </div>
+      <div>
+        <button type="submit" class="add-button">
+          Add
+        </button>
+      </div>
+    </form>
+  </section>
+      <script src="script.js"></script>
 </body>
 </html>

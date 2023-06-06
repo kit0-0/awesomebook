@@ -58,7 +58,7 @@
 ### Key Features <a name="key-features"></a>
 
 - **Demo of Linters**
-<!-- - **Demo of Portfolio** -->
+- **Demo of Awesomebooks**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 <!-- LIVE DEMO -->
@@ -143,6 +143,7 @@ npx eslint .
 
 <!-- - [ ] **Portfolio: mobile menu** -->
 - [ ] **Add Model**
+- [ ] **Navigation to full website**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

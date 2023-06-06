@@ -10,6 +10,26 @@ class BookManager {
     this.addEventListeners();
   }
 
+  addBook(title, author) {
+    const book = {
+      title,
+      author,
+    };
+
+    this.books.push(book);
+    localStorage.setItem('books', JSON.stringify(this.books));
+    this.displayBooks();
+  }
+
+  addEventListeners() {
+    this.addBookForm.addEventListener('submit', (event) => {
+      event.preventDefault();
+      this.addBook(this.titleInput.value, this.authorInput.value);
+      this.titleInput.value = '';
+      this.authorInput.value = '';
+    });
+  }
+
   static initialize() {
     const bookManager = new BookManager();
     return bookManager;

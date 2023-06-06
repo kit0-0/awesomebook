@@ -141,9 +141,9 @@ npx eslint .
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-<!-- - [ ] **Portfolio: mobile menu** -->
+- [ ] **Add mobile version**
 - [ ] **Add Model**
-- [ ] **Navigation to full website**
+<!-- - [ ] **Navigation to full website** -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

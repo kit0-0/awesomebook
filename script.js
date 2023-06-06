@@ -1,3 +1,24 @@
+function showContent(sectionId) {
+  const sections = document.getElementsByClassName('content');
+
+  for (let i = 0; i < sections.length; i += 1) {
+    sections[i].style.display = 'none'; // Hide all content sections
+  }
+
+  const selectedSection = document.getElementById(sectionId);
+  selectedSection.style.display = 'block'; // Show the selected content section
+}
+
+document.addEventListener('DOMContentLoaded', () => {
+  showContent('books'); // Show the initial content section
+
+  const time = new Date();
+
+  // Create a <p> element for the date and time
+  const dateElement = document.getElementById('currentDate');
+  dateElement.textContent = time;
+});
+
 class BookManager {
   constructor() {
     this.books = JSON.parse(localStorage.getItem('books')) || [];
@@ -25,7 +46,8 @@ class BookManager {
     };
 
     this.books.forEach((book, index) => {
-      this.booksDiv.innerHTML += `<div class="book">
+      this.booksDiv.innerHTML += `<h2>All Awesome Books</h2>
+      <div class="book">
           <span class="book-title">${book.title}</span>
           <span class="book-author">by ${book.author}</span>
           <button class="remove-button" type="button" data-index="${index}">Remove</button>

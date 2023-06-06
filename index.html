@@ -1,87 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap"
-      rel="stylesheet"
-    />
-    <!-- css -->
-    <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="nav.css" />
-    <title>Book Collection</title>
-  </head>
 
-  <body>
-    <header>
-      <nav class="navbar">
-        <ul>
-          <li class="logo"><a href="#">Awesome Books</a></li>
-          <li>
-            <a href="#books" onclick="showContent('books')">Books List</a>
-          </li>
-          <li>
-            <a href="#add-book" onclick="showContent('add-book')"
-              >Add Book Form</a
-            >
-          </li>
-          <li>
-            <a href="#contact" onclick="showContent('contact')">Contact Info</a>
-          </li>
-        </ul>
-      </nav>
-      <p id="currentDate"></p>
-    </header>
-    <main class="main-box">
-      <section id="books" class="content">
-        <div id="bookContainer" class="book-container"></div>
-      </section>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap"
+    rel="stylesheet" />
+  <!-- css -->
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="nav.css" />
+  <title>Book Collection</title>
+</head>
 
-      <section id="add-book" class="content">
-        <h2>Add Book</h2>
-        <!-- Add book form content -->
-        <form id="addBookForm">
-          <div class="user-box">
-            <input type="text" id="titleInput" required />
-            <label>Title</label>
-          </div>
-          <div class="user-box">
-            <input type="text" id="authorInput" required />
-            <label>Author</label>
-          </div>
-          <div>
-            <button type="submit" class="add-button">Add</button>
-          </div>
-        </form>
-      </section>
-      <section id="contact" class="content">
-        <h2>Contact Information</h2>
-        <div class="contact-info">
-          <div class="contact-item">
-            <span class="contact-label">Email:</span>
-            <a href="mailto:info@example.com">info@example.com</a>
-          </div>
-          <div class="contact-item">
-            <span class="contact-label">Phone:</span>
-            <a href="tel:+123456789">+123456789</a>
-          </div>
-          <div class="contact-item">
-            <span class="contact-label">Address:</span>
-            <p>123 Street, City, Country</p>
-          </div>
+<body>
+  <header>
+    <nav class="navbar">
+      <ul>
+        <li class="logo"><a href="#">Awesome Books</a></li>
+        <li>
+          <a href="#books" onclick="showContent('books')">Books List</a>
+        </li>
+        <li>
+          <a href="#add-book" onclick="showContent('add-book')">Add Book Form</a>
+        </li>
+        <li>
+          <a href="#contact" onclick="showContent('contact')">Contact Info</a>
+        </li>
+      </ul>
+    </nav>
+    <p id="currentDate"></p>
+  </header>
+  <main class="main-box">
+    <section id="books" class="content">
+      <div id="bookContainer" class="book-container"></div>
+    </section>
+
+    <section id="add-book" class="content">
+      <h2>Add Book</h2>
+      <form id="addBookForm">
+        <div class="user-box">
+          <input type="text" id="titleInput" required />
+          <label>Title</label>
         </div>
-      </section>
-    </main>
-    <footer>
-      <p>&copy; 2023 Your Company. All rights reserved.</p>
-    </footer>
-    <script src="./js/nav.js"></script>
-    <script src="script.js"></script>
-    <!-- <script src="./js/index.js"></script> -->
-  </body>
+        <div class="user-box">
+          <input type="text" id="authorInput" required />
+          <label>Author</label>
+        </div>
+        <div>
+          <button type="submit" class="add-button">Add</button>
+        </div>
+      </form>
+    </section>
+    <section id="contact" class="content">
+      <h2>Contact Information</h2>
+      <div class="contact-info">
+        <div class="contact-item">
+          <span class="contact-label">Email:</span>
+          <a href="mailto:info@example.com">info@example.com</a>
+        </div>
+        <div class="contact-item">
+          <span class="contact-label">Phone:</span>
+          <a href="tel:+123456789">+123456789</a>
+        </div>
+        <div class="contact-item">
+          <span class="contact-label">Address:</span>
+          <p>123 Street, City, Country</p>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2023 Your Company. All rights reserved.</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
 </html>
